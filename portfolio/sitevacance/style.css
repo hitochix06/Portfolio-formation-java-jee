@@ -1,0 +1,302 @@
+body {
+    /* Google Font*/
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+p {
+
+    text-align: initial;
+}
+
+
+/*Navigation */
+
+.navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover {
+    color: #fff;
+    font-size: 25px;
+}
+
+
+/* couleur bar  nav*/
+.bg-dark {
+    background-color: #447ab1 !important;
+}
+
+/*couleur du titre*/
+.navbar-light .navbar-brand {
+    color: #ffffff;
+}
+
+/*Couleur  iteme Accueil */
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+    color: #ffffff;
+}
+
+/*Couleur différent iteme  */
+
+.navbar-light .navbar-nav .nav-link {
+    color: #6c757d;
+}
+
+/*Bouton et font  écran  header*/
+
+.presentation {
+
+    /*   Tu lui donnes une image de background */
+
+
+    /* centre l'image et la met bien sur tous les écrans*/
+
+    background-size: cover;
+
+}
+
+/*bouton*/
+
+.btn-primary {
+    margin: 10px 0px 0px 90px;
+}
+
+
+/*couleur du titre */
+
+.text-center {
+    text-align: center !important;
+    color: #fff;
+    padding: 50px;
+}
+
+/*project en 3 points */
+.Project {
+    text-align: center;
+    padding: 30px;
+}
+
+.presentation {
+    text-align: center;
+    color: #669cff;
+  /* centre l'image et la met bien sur tous les écrans*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+/*personnaliser les card*/
+.card{
+    margin: 15px;
+    
+}
+
+.card-body {
+    
+    box-shadow: 5px 7px 10px #59595966;
+}
+
+.h5, h5 {
+    font-size: 2.25rem;
+    text-align: center;
+    color: cornflowerblue;
+}
+
+/*personaliser la taille des logo dans Project en 3 point */
+
+
+.fa-money-bill-wave-alt:before {
+    content: "\f53b";
+    font-size: 100px;
+}
+
+.fa-couch:before {
+    content: "\f4b8";
+    font-size: 100px;
+}
+
+.fa-users:before {
+    content: "\f0c0";
+    font-size: 100px;
+
+}
+
+/*Témoignage*/
+
+.temoignage {
+    text-align: center;
+}
+
+
+/*texte card */
+
+.card-text {
+    text-align: initial;
+}
+
+/*taille image card */
+
+
+.img-fluid {
+    max-width: 50%;
+    height: auto;
+}
+
+.img-2 {
+    max-width: 100%;
+    height: auto;
+}
+
+/*footer*/
+
+.container-texte {
+    text-align: center;
+    background: #f7f7f7;
+    padding: 10px;
+    
+}
+
+.teste {
+    margin: 10px;
+    text-align: center;
+}
+
+
+
+.h1, h1 {
+    font-size: 2.5rem;
+    margin: 12px;
+    margin: 20px 0px auto;
+    color: cornflowerblue;
+}
+
+/*animation texte*/
+
+.ml2 {
+    font-weight: 900;
+    font-size: 3.5em;
+  }
+  
+  .ml2 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+  .row {
+    justify-content: center;
+  }
+
+  .ml4 {
+    position: relative;
+    font-weight: 900;
+    font-size: 2.5em;
+  }
+  .ml4 .letters {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0.3em;
+    right: 0;
+    opacity: 0; 
+  }
+
+/*Activites*/
+
+.card1{
+    margin: 20px;
+}
+
+.card-img-top1 {
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: 5px 7px 10px #59595966;
+}
+
+.card-img-top2 {
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: 5px 7px 10px #59595966;
+}
+
+
+.card-img-top3 {
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: 5px 7px 10px #59595966;
+}
+
+/*annimation photo*/
+
+.card-img-top1 {
+    animation-duration: 6s;
+    animation-name: slidein;
+   
+  }
+
+  .slidein {
+    animation-duration: 3s;
+    animation-name: slidein;
+   
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left:500%;
+      
+    }
+    to {
+      margin-left:0%;
+      
+    }
+  }
+  
+  .card-img-top2 {
+    animation-duration: 7s;
+    animation-name: slidein;
+   
+  }
+
+  .slidein {
+    animation-duration: 3s;
+    animation-name: slidein;
+   
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left:500%;
+      
+    }
+    to {
+      margin-left:0%;
+      
+    }
+  }
+
+  .card-img-top3 {
+    animation-duration: 8s;
+    animation-name: slidein;
+   
+  }
+
+  .slidein {
+    animation-duration: 3s;
+    animation-name: slidein;
+   
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left:500%;
+      
+    }
+    to {
+      margin-left:0%;
+      
+    }
+  }
+
+  
